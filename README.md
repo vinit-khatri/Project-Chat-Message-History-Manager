@@ -16,24 +16,15 @@ It uses:
 - Export history to `messages.csv`
 
 ## 🗂️ Project Structure
-ChatMessage History Manager/
+ChatMessageHistoryManager/   ← Root folder (project name)
+│
+│── src/                     ← Source code folder
+│   └── main.cpp             ← Your main C++ program
+│
+│── data/                    ← Data folder (for outputs)
+│   └── messages.csv         ← Chat history export file
+│
+│── README.md                ← Documentation (project explanation)
+│
+│── Makefile (optional)      ← For easy build/run automation
 
-|- src/main.cpp
-
-# Core
-
-program |-
-
-data/messages.csv
-
-# Exported chat history |
-
-README.md
-
-# Project
-
-documentation |
-
-Makefile
-
-# (Optional) for compilation
